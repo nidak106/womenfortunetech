@@ -9,7 +9,7 @@ const HomeTeamPreview = () => {
   ];
 
   return (
-    <section className="py-20 px-5 bg-white text-center">
+    <section className="py-20 px-4 sm:px-5 bg-white text-center">
       <h2 className="text-3xl font-black text-[#2D4B73] mb-12">Leadership Team</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto mb-12">
         {previewMembers.map((m, i) => (

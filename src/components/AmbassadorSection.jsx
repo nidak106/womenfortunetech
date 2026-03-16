@@ -23,13 +23,13 @@ const colors = {
 
 function AmbassadorSection({ onInternship }) {
   return (
-    <section id="ambassadors" className="py-24 px-5" style={{ background: colors.softGray }}>
+    <section id="ambassadors" className="py-24 px-4 sm:px-5" style={{ background: colors.softGray }}>
       <div className="max-w-6xl mx-auto">
         <div className="text-[10px] font-black tracking-[4px] uppercase mb-3" style={{ color: colors.navy }}>Campus Network</div>
         <h2 className="font-black mb-3" style={{ fontSize: "clamp(26px,4vw,44px)", color: colors.deepNavy }}>Our Ambassador Program</h2>
         <p className="text-slate-500 text-sm leading-relaxed max-w-lg mb-12">Empowering student leaders across Pakistan to bring tech opportunities directly to women on campus.</p>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 mt-12">
           
           {/* Active Section - Using Navy */}
           <div>

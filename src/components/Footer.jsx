@@ -8,7 +8,7 @@ function Footer() {
   };
 
   return (
-    <footer id="contact" style={{ backgroundColor: colors.deepNavy }} className="text-white py-20 px-5">
+    <footer id="contact" style={{ backgroundColor: colors.deepNavy }} className="text-white py-20 px-4 sm:px-5">
       <div className="max-w-6xl mx-auto">
         <div className="grid gap-12 mb-16" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))" }}>
           

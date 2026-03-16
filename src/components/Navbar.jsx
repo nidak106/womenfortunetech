@@ -34,7 +34,7 @@ function Navbar({ onInternship }) {
           : "bg-gradient-to-b from-black/50 to-transparent py-5"
       }`}
     >
-      <div className="max-w-6xl mx-auto px-5 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-4 sm:px-5 flex items-center justify-between">
         
         {/* Logo Section */}
         <Link to="/" className="flex items-center gap-3 no-underline group z-50">

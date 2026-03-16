@@ -52,29 +52,13 @@ const Hero = ({ onInternship }) => {
       />
 
       {/* 3. DECORATIVE BLOBS (Logo Inspired) */}
-      <div className="absolute rounded-full pointer-events-none z-[2]" style={{ width: 380, height: 380, background: `${colors.navy}15`, top: -80, right: -80 }} />
-      <div className="absolute rounded-full pointer-events-none z-[2]" style={{ width: 220, height: 220, background: `${colors.coral}10`, bottom: 120, left: -60 }} />
+      <div className="absolute rounded-full pointer-events-none z-[2]" style={{ width: 250, height: 250, background: `${colors.navy}15`, top: -50, right: -50 }} />
+      <div className="absolute rounded-full pointer-events-none z-[2]" style={{ width: 150, height: 150, background: `${colors.coral}10`, bottom: 80, left: -30 }} />
 
-      {/* 4. FLOATING PILLS */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none z-[3]">
-        {floaters.map((txt, i) => (
-          <div 
-            key={i} 
-            className="absolute text-white/50 text-xs font-bold px-4 py-2 rounded-full border border-white/10 whitespace-nowrap"
-            style={{ 
-              background: "rgba(255,255,255,0.08)", 
-              ...floaterStyles[i],
-              animation: `floatPill 8s ease-in-out infinite`, 
-              animationDelay: floaterStyles[i].animationDelay 
-            }}
-          >
-            {txt}
-          </div>
-        ))}
-      </div>
+      
 
       {/* 5. MAIN CONTENT CONTAINER */}
-      <div className="relative z-10 max-w-6xl mx-auto px-6 pt-24 pb-12 flex-1 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center w-full">
+      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 pt-16 sm:pt-24 pb-12 flex-1 grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center w-full">
         
         {/* LEFT COLUMN */}
         <div className="animate-fadeIn">
@@ -94,7 +78,7 @@ const Hero = ({ onInternship }) => {
             Unlocking potential through digital skills, community, and opportunity.
           </p>
 
-          <p className="text-white/70 text-sm leading-relaxed max-w-lg mb-10">
+          <p className="text-white/70 text-m leading-relaxed max-w-lg mb-10">
             Women Fortune Tech provides accessible, job-ready training in regional languages. 
             From Peshawar to all of Pakistan, we are building a world where every woman has the stage to lead.
           </p>
@@ -102,21 +86,21 @@ const Hero = ({ onInternship }) => {
           {/* CTA BUTTONS */}
           <div className="flex flex-wrap gap-4 mb-12">
             <Link to="/moments" 
-              className="hover:opacity-90 text-white font-black text-sm px-8 py-4 rounded-full transition-all transform hover:scale-105 shadow-lg shadow-black/10"
+              className="hover:opacity-90 text-white font-black text-sm px-6 py-3 sm:px-8 sm:py-4 rounded-full transition-all transform hover:scale-105 shadow-lg shadow-black/10"
               style={{ backgroundColor: colors.coral }}>
               ✨ Watch Our Journey
             </Link>
             
             <button 
               onClick={onInternship}
-              className="bg-transparent border-2 font-black text-sm px-8 py-4 rounded-full transition-all hover:bg-white/5"
-              style={{ borderColor: colors.navy, color: colors.lightBlue }}>
+              className="bg-transparent border-2 font-black  text-white text-sm px-6 py-3 sm:px-8 sm:py-4 rounded-full transition-all hover:bg-white/5"
+              style={{ borderColor: colors.coral }}>
               💼 Join Internship
             </button>
           </div>
 
           {/* IMPACT STATS */}
-          <div className="flex gap-8 border-t border-white/10 pt-8">
+          <div className="flex gap-4 sm:gap-8 border-t border-white/10 pt-8">
             {[
               { val: "2.4K+", lbl: "Women Upskilled" },
               { val: "15+", lbl: "Uni Partners" },

@@ -108,7 +108,7 @@ function VideoHub() {
   const filtered = active === "All" ? VIDEOS : VIDEOS.filter(v => v.cat === active);
 
   return (
-    <section id="video-hub" className="py-24 px-5" style={{ backgroundColor: colors.deepNavy }}>
+    <section id="video-hub" className="py-24 px-4 sm:px-5" style={{ backgroundColor: colors.deepNavy }}>
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <div className="text-white/50 text-[10px] font-black tracking-[4px] uppercase mb-3">Resources</div>
@@ -137,7 +137,7 @@ function VideoHub() {
         </div>
 
         {/* Video Grid */}
-        <div className="grid gap-8" style={{ gridTemplateColumns:"repeat(auto-fill, minmax(300px, 1fr))" }}>
+        <div className="grid gap-8" style={{ gridTemplateColumns:"repeat(auto-fill, minmax(280px, 1fr))" }}>
           {filtered.map(v => <VideoCard key={v.id} video={v} />)}
         </div>
 
