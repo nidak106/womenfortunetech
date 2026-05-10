@@ -144,7 +144,7 @@ function VideoHub() {
         {/* Final CTA */}
         <div className="text-center mt-16">
           <a href="https://www.youtube.com/@WomenFortuneTech" target="_blank" rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 text-white font-black text-xs px-10 py-4 rounded-full no-underline transition-all hover:scale-105 active:scale-95 shadow-2xl"
+            className="inline-flex items-center gap-3 text-white font-black text-xs px-6 sm:px-10 py-4 rounded-full no-underline transition-all hover:scale-105 active:scale-95 shadow-2xl"
             style={{ backgroundColor: colors.navy }}>
             EXPLORE THE CHANNEL
             <span className="text-lg">→</span>

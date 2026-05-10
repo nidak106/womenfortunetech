@@ -51,14 +51,14 @@ function Team() {
 
   return (
     
-    <div className="py-20 px-5" style={{ background: colors.softGray }}>
+    <div className="py-20 px-4 sm:px-5" style={{ background: colors.softGray }}>
       <div className="max-w-6xl mx-auto">
         <div className="text-[10px] font-extrabold tracking-[4px] uppercase mb-2" style={{ color: colors.navy }}>Our Team</div>
         <h2 className="font-black mb-2" style={{ fontSize: "clamp(26px,4vw,44px)", color: colors.deepNavy }}>Meet the People Behind the Mission</h2>
         <p className="text-slate-500 text-sm leading-relaxed max-w-lg mb-10">A dedicated team working tirelessly to empower women through technology and community.</p>
 {/* CEO Spotlight Section */}
 <div className="mb-20">
-  <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center bg-white rounded-[40px] p-8 lg:p-12 border border-slate-100 shadow-xl shadow-slate-200/50">
+  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center bg-white rounded-[40px] p-8 lg:p-12 border border-slate-100 shadow-xl shadow-slate-200/50">
     
     {/* Large CEO Image */}
     <div className="relative group">

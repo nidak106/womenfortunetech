@@ -18,7 +18,7 @@ function Contact() {
   };
 
   return (
-    <section className="min-h-screen pt-32 pb-20 px-5" style={{ backgroundColor: colors.softGray }}>
+    <section className="min-h-screen pt-32 pb-20 px-4 sm:px-5" style={{ backgroundColor: colors.softGray }}>
       <div className="max-w-6xl mx-auto">
         
         {/* Header */}

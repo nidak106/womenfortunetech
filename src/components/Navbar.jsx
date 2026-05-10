@@ -107,7 +107,7 @@ function Navbar({ onInternship }) {
             </Link>
           ))}
           
-          <div className="flex flex-col gap-4 w-full px-10">
+          <div className="flex flex-col gap-4 w-full px-4 sm:px-10">
             <button 
               onClick={() => { onInternship(); setMenuOpen(false); }}
               className="w-full text-white font-black py-4 rounded-xl shadow-lg"

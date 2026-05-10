@@ -14,7 +14,7 @@ function InternshipModal({ open, onClose }) {
   if (!open) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-start justify-center p-10 overflow-y-auto" style={{ background:"rgba(0,0,0,0.65)", backdropFilter:"blur(8px)" }}
+    <div className="fixed inset-0 z-50 flex items-start justify-center p-4 sm:p-10 overflow-y-auto" style={{ background:"rgba(0,0,0,0.65)", backdropFilter:"blur(8px)" }}
       onClick={e => e.target === e.currentTarget && onClose()}>
       <div className="bg-white rounded-3xl w-full max-w-xl overflow-hidden">
         {/* Header */}
